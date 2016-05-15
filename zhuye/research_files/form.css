@@ -1,0 +1,38 @@
+
+label.checkbox {
+	padding-bottom: 1px;
+	float: none;
+	text-align: left;
+	}
+label.top {
+	float: none;
+	clear: both;
+	text-align: left;
+	width: auto;
+	}
+label.widelabel {
+	font-weight: bold; 
+	width: 100%;
+    }
+textarea.largetext {
+	width: 65%;
+	height: 10ex;
+	}
+fieldset big {
+ 	 display: block;
+	 width:100%;
+	 text-align: center;
+	}
+.btn {
+	font-size: 11px; 
+	display: block; 
+	margin: 10px auto; 
+	cursor: pointer;
+	}
+#changepwd {
+	width: 400px;
+	}
+#changepwd input {
+	width: 14em; 
+	margin-top: 10px;
+	}

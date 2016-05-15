@@ -1,0 +1,288 @@
+<!--?xml version="1.0" encoding="iso-8859-1"?-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  
+<!-- Mirrored from www.iro.umontreal.ca/~bengioy/yoshua_en/Highlights.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 May 2016 07:31:36 GMT -->
+<head>
+    <meta http-equiv="content-type" content="text/html;
+      charset=ISO-8859-1">
+    <title>Research</title>
+    <meta name="generator" content="Amaya, see http://www.w3.org/Amaya/">
+  </head>
+  <body style="background-image:
+    url(pale_orange_texture_for_web_sites.jpg); background-repeat:
+    repeat; background-position: left top;">
+    <h1><big>Recent Research Highlights</big></h1>
+    <h2><br>
+    </h2>
+    <h2>NEW CONFERENCE ON REPRESENTATION LEARNING: <a
+        href="https://sites.google.com/site/representationlearning2013/">ICLR
+
+
+
+        2013</a><br>
+    </h2>
+    <h2>
+<p><a href="http://www.iro.umontreal.ca/~lisa/publications/index.php?page=author&amp;kind=single&amp;ID=1">
+   Almost full list of publications</a></p>
+    </h2>
+    <br>
+    <h2>Selected Recent Papers</h2>
+    <ul>
+      <li><big><b><u>Radically new approaches to deep unsupervised learning</u></b> 
+      with joint training of all levels, avoiding marginalizing/MAP/MCMC over latent variables:</big>
+      </li>
+      <ul>
+       <li> Exploiting the recent advances in understanding the probabilistic interpretation of auto-encoders
+       in order to perform credit assignment without backprop and train deep generative models:
+       <a href="http://arxiv.org/pdf/1407.7906v2">How Auto-Encoders Could Provide Credit Assignment in Deep Networks via Target Propagation<a>.
+       <li> <a href="http://arxiv.org/abs/1306.1091">
+          Deep Generative Stochastic Networks Trainable by Backprop</a>,
+          Yoshua Bengio, Eric Thibodeau-Laufer and Jason Yosinski, Universit&eacute; de
+          Montr&eacute;al, arXiv report 1306.1091, 2013 (also, an <a href="http://jmlr.org/proceedings/papers/v32/bengio14.pdf">ICML'2014 paper</a>).</li>
+       <li> <a href="http://arxiv.org/abs/1305.6663">
+          Generalized Denoising Auto-Encoders as Generative Models</a>,
+          Yoshua Bengio, Li Yao, Guillaume Alain, and Pascal Vincent, Universit&eacute; de
+          Montr&eacute;al, arXiv report 1305.6663, 2013 (also, an <a href="http://papers.nips.cc/paper/5023-generalized-denoising-auto-encoders-as-generative-models.pdf">NIPS'2013 paper</a/)</li>
+       <li> Python/Theano code for <a href="https://github.com/yaoli/DSN">
+       GSNs and the experiments in the above 2 papers</a>.
+      </ul>
+      <li><big>Four challenges of deep learning, and ideas to attack them:
+      scaling computation, optimization, inference & sampling, disentangling.
+      </big><br>
+      </li>
+      <ul>
+        <li> <a href="http://arxiv.org/abs/1305.0445">
+          Deep Learning of Representations: Looking Forward</a>,
+          Yoshua Bengio, Universit&eacute; de
+          Montr&eacute;al, arXiv report 1305.0445, 2013</li>
+      </ul>
+      <li><big>Figuring out what <b><u>regularized auto-encoders</u></b>
+          are doing in terms of <b>capturing the data generating
+            distribution</b>, and exploiting this to sample from them:</big><br>
+      </li>
+      <ul>
+      <li><big><u><b>Recurrent nets</b></u> are back!</big></li>
+      <ul>
+        <li>For breaking through the SOTA in machine translation: <a href="http://arxiv.org/pdf/1406.1078v2">Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation</a>, EMNLP'2014.
+        </li>
+        <li><a href="http://jmlr.org/proceedings/papers/v28/pascanu13.pdf">On
+           the difficulty of training recurrent neural networks</a>, 
+          Razvan Pascanu, Tomas Mikolov and Yoshua Bengio, 
+          ICML'2013</li>
+        <li><a href="http://arxiv.org/abs/1212.0901">Advances in
+            Optimizing Recurrent Networks</a>, Yoshua Bengio, Nicolas
+          Boulanger-Lewandowski, Razvan Pascanu, arXiv report 1212.0901,
+          2012</li>
+        <li><a href="http://icml.cc/discuss/2012/590.html">Modeling
+            Temporal Dependencies in High-Dimensional Sequences:
+            Application to Polyphonic Music Generation and Transcription</a>,
+          Nicolas Boulanger-Lewandowski, Yoshua Bengio and Pascal
+          Vincent, in: Proceedings of the Twenty-nine International
+          Conference on Machine Learning (ICML'12), ACM, 2012<br>
+        </li>
+      </ul>
+      <li><big>Deeper representations can help <u><b>sample better by
+              reducing the mixing problem</b></u> with most MCMC
+          methods, and unfold the data manifold</big><br>
+      </li>
+      <ul>
+        <li><a href="http://arxiv.org/abs/1207.4404">Better Mixing via
+            Deep Representations</a>, Yoshua Bengio, Gr&eacute;goire
+          Mesnil, Yann Dauphin and Salah Rifai, Universite de Montreal,
+          arXiv report:1207.4404, 2012</li>
+      </ul>
+      </li>
+      <li> <big>Maxout Networks</big> combine dropout noise injection with max-linear operations
+         to beat SOTA on image datasets.
+       <a href="http://jmlr.org/proceedings/papers/v28/goodfellow13.pdf">
+            Maxout Networks</a>, Ian Goodfellow, David Warde-Farley, Mehdi Mirza,
+          Aaron Courville and Yoshua Bengio, ICML'2013
+      </li>
+      <li><big>A theory relating the <u><b>evolution of culture and
+              memes</b></u> with <u><b>local minima in deep neural
+              networks</b></u></big></li>
+      <ul>
+        <li><a href="http://arxiv.org/abs/1203.2990">Evolving Culture vs
+            Local Minima</a>, Yoshua Bengio, Universit&eacute; de
+          Montr&eacute;al, ArXiv report 1203.2990, 2012</li>
+      </ul>
+      <li><big><u><b>Hyper-parameters can be optimized</b></u> in a
+          systematic way that can make machine learning experiments more
+          reproducible and more computationally efficient</big></li>
+      <ul>
+        <li><a
+            href="http://www.jmlr.org/papers/volume13/bergstra12a/bergstra12a.pdf">Random
+
+
+
+            Search for Hyper-Parameter Optimization</a>, James Bergstra
+          and Yoshua Bengio (2012), in: Journal of Machine Learning
+          Research, 13(281--305)</li>
+        <li><a
+            href="http://books.nips.cc/papers/files/nips24/NIPS2011_1385.pdf">Algorithms
+
+
+
+            for Hyper-Parameter Optimization</a>, James Bergstra,
+          R&eacute;my Bardenet, Yoshua Bengio and Bal&aacute;zs
+          K&eacute;gl, in: NIPS'2011, 2011</li>
+      </ul>
+      <li><big>Representation learning for NLP, representing not just words but
+          phrases or sentences, machine translation, semantic graphs,
+          multiple datasets on overlapping variables, or knowledge bases</big></li>
+      <ul>
+        <li>Breaking through the SOTA in machine translation: 
+       <a href="http://arxiv.org/pdf/1406.1078v2">Learning Phrase Representations using RNN Encoder-Decoder for 
+        Statistical Machine Translation</a>, EMNLP'2014.
+       </li>
+        <li><a
+href="http://www.hds.utc.fr/~bordesan/dokuwiki/lib/exe/fetch.php?id=en%3Apubli&amp;cache=cache&amp;media=en:bordes12aistats.pdf">Joint
+
+
+
+            Learning of Words and Meaning Representations for Open-Text
+            Semantic Parsing</a>, Antoine Bordes, Xavier Glorot, Jason
+          Weston and Yoshua Bengio (2012), in: Proceedings of the 15th
+          International Conference on Artificial Intelligence and
+          Statistics (AISTATS)</li>
+      </ul>
+      <li><big><u><b>Spike-and-slab</b></u> RBM and sparse coding do a
+          good job at modeling pixels and their interactions in images,
+          learning features that excel at transfer learning and
+          generating outstanding images<br>
+        </big></li>
+      <ul>
+        <li><a href="http://icml.cc/2012/papers/718.pdf">Large-Scale
+            Feature Learning With Spike-and-Slab Sparse Coding,</a> Ian
+          Goodfellow, Aaron Courville and Yoshua Bengio, in: ICML'2012<br>
+        </li>
+        <li><a
+            href="http://www.iro.umontreal.ca/~lisa/pointeurs/ICML2011_SSRBM.pdf">Unsupervised
+
+
+
+            Models of Images by Spike-and-Slab RBMs</a>, Aaron
+          Courville, James Bergstra and Yoshua Bengio, in: ICML'2011</li>
+      </ul>
+      <li><big><u><b>Contractive Auto-Encoders</b></u> learn manifold
+          structure, beating the state-of-the-art in knowledge-free
+          MNIST and facial expression detection</big><br>
+      </li>
+      <ul>
+        <li><a
+href="http://www.iro.umontreal.ca/~lisa/pointeurs/ICML2011_explicit_invariance.pdf">Contracting
+
+
+
+            Auto-Encoders: Explicit invariance during feature extraction</a>,
+          Salah Rifai, Pascal Vincent, Xavier Muller, Xavier Glorot and
+          Yoshua Bengio, in: ICML'2011</li>
+        <li><a
+href="http://www-etud.iro.umontreal.ca/~rifaisal/material/rifai_eccv_2012.pdf">Disentangling
+
+
+
+            factors of variation for facial expression recognition</a>,
+          Salah Rifai, Yoshua Bengio, Aaron Courville, Pascal Vincent
+          and Mehdi Mirza, in: ECCV'2012</li>
+        <li><a
+            href="http://books.nips.cc/papers/files/nips24/NIPS2011_1240.pdf">The
+
+
+
+            Manifold Tangent Classifier</a>, Salah Rifai, Yann Dauphin,
+          Pascal Vincent, Yoshua Bengio and Xavier Muller, in: NIPS'2011<br>
+        </li>
+      </ul>
+    </ul>
+    <h2>Machine Learning Competitions Won</h2>
+    <ul>
+      <li> Winning the ICMI 2013 Grand Challenge on Emotion Recognition in the Wild!
+     The challenge baseline accuracy was 27.5% - our approach yielded 41.0%)<br>
+Kahou, S. E., Pal, C., Bouthillier, X., Froumenty, P., Gulcehre, C., *, Memisevic, R., Vincent, P., Courville, A. and Bengio, Y. (2013) 
+<a href="icmi2013/icmi2013_grand_challenge_winner.html">
+Combining Modality Specific Deep Neural Networks for Emotion Recognition in Video.</a> In <i>Proceedings of the 15th ACM International Conference on Multimodal Interaction (ICMI '13)</i> pp. 543-550. <a href="http://dl.acm.org/citation.cfm?doid=2522848.2531745">[ACM digital library definitive version]</a>.
+<br>*Note: Please see the additional authors section in the .pdf of the paper above for the full author list. Additional authors should be inserted at the *.
+      </li>
+      <li><a
+          href="http://www.causality.inf.ethz.ch/unsupervised-learning.php">Unsupervised
+
+
+
+          and Transfer Learning Challenge</a>, presented at an ICML 2011
+        and IJCNN 2011 workshops of the same name, was <a
+href="http://www.iro.umontreal.ca/~lisa/publications2/index.php/publications/show/504">won
+
+
+
+          by LISA members using unsupervised layer-wise pre-training</a></li>
+      <li>We also won the <a
+href="https://sites.google.com/site/nips2011workshop/transfer-learning-challenge">Transfer
+
+
+
+          Learning Challenge at NIPS 2011</a>'s Challenges in Learning
+        Hierarchical Models Workshop,&nbsp; using <big><i>spike-and-slab
+
+
+
+            sparse coding</i></big> (<a
+          href="http://icml.cc/2012/papers/718.pdf">ICML 2012 paper</a>)<br>
+      </li>
+    </ul>
+    <h2>Review Papers and Books</h2>
+    <ul>
+      <li>
+        <a href="http://www.iro.umontreal.ca/~bengioy/dlbook">
+          Deep Learning</a> - an MIT Press book in preparation
+      </li>
+      <li><a href="http://arxiv.org/abs/1206.5538">Unsupervised Feature
+          Learning and Deep Learning: A Review and New Perspectives</a>,
+        Yoshua Bengio, Aaron Courville and Pascal Vincent, U. Montreal,
+        arXiv report:1206.5538, 2012</li>
+      <li><a href="http://arxiv.org/abs/1206.5533">Practical
+          recommendations for gradient-based training of deep
+          architectures</a>, Yoshua Bengio, U. Montreal, arXiv
+        report:1206.5533, Lecture Notes in Computer Science Volume 7700,
+        Neural Networks: Tricks of the Trade Second Edition, Editors:
+        Gr&eacute;goire Montavon, Genevi&egrave;ve B. Orr, Klaus-Robert
+        M&uuml;ller, 2012<br>
+      </li>
+      <li><a
+href="http://www.iro.umontreal.ca/~bengioy/papers/BengioCourvilleChapter.pdf">Deep
+
+
+
+
+          Learning of Representations</a>, Yoshua Bengio and Aaron
+        Courville, in: Handbook on Neural Information Processing,
+        Springer: Berlin Heidelberg, 2012</li>
+      <li><a
+          href="http://www.iro.umontreal.ca/~lisa/pointeurs/DL_tutorial.pdf">Deep
+
+
+
+
+          Learning of Representations for Unsupervised and Transfer
+          Learning</a>, Yoshua Bengio, in: JMLR W&amp;CP: Proc.
+        Unsupervised and Transfer Learning challenge and workshop, pages
+        17-36, 2012 <br>
+      </li>
+      <li><a
+          href="http://www.iro.umontreal.ca/~bengioy/papers/ftml.pdf">Learning
+
+
+
+          deep architectures for AI</a>, Yoshua Bengio (2009), in:
+        Foundations and Trends in Machine Learning, 2:1(1--127). Also
+        published as a book. Now Publishers, 2009.<br>
+      </li>
+    </ul>
+    <h2><br>
+    </h2>
+    <h2><a href="talks.html">Recent Tutorials and Talks</a></h2>
+  </body>
+
+<!-- Mirrored from www.iro.umontreal.ca/~bengioy/yoshua_en/Highlights.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 14 May 2016 07:31:44 GMT -->
+</html>

@@ -1,0 +1,417 @@
+/* shortcuts like margin [1,4] go clockwise starting at top */
+
+#gsd-footer {
+	clear: both;
+	padding: 15px 0;		/* no, this cannot be margin. */
+	text-align: center;
+	color: rgb(254,230,130);
+	letter-spacing: 5px;
+	visibility: hidden;	/*this line comes out when all the pages have a footer */
+	}
+
+#gsd-footer a {
+	font-size: 9px;
+	color: rgb(150,150,150);
+	letter-spacing: normal;
+	}
+
+/* =========================================
+	Events Calendar ADDED BY PEF 02/19/2006
+   ========================================= */
+.cal_default {
+}
+.cal_private {
+	color: red;
+}
+.cal_public {
+	color: blue;
+}
+.cal_exeter {
+	text-transform: uppercase;
+}
+.cal_gallery {
+	color: black;
+}
+.cal_user {
+	color: green;
+}
+.cal_execed {
+	text-decoration: line-through;
+}
+.cal_date, .cal_room {
+font-size: 90%;
+}
+
+.cal_type {
+font-size: 90%;
+color: #ccc;
+}
+
+.lcd_show {
+padding: 20px;
+font-size: 200%;
+}
+
+#whiteCell {
+	background-color: #ffffff;
+}
+#greyCell {
+	background-color: #f2f2f0; 
+}
+#lightBlueCell {
+	background-color: #DCE3E9;
+}
+.calendarsubheading {
+	font-size: 11px;
+	font-weight: bold;
+	color: #003366;
+	}
+
+.tableshade {	background-color: #eeeeee; 	}
+.titleshade {	background-color: #ffeeee; 	}
+.alert {		color: #ff0000;}
+.accent {		color: #003366;}
+/* =========================================
+	image and div "easy layout" classes
+   ========================================= */
+
+.right, .topright, #deptnews{
+	clear: right;
+	float: right;
+	margin-left: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	}
+	
+.left, .topleft {
+	float: left;
+	margin-left: 0px;
+	margin-right: 15px;
+	margin-bottom: 15px;
+	}
+
+.left, .right {
+	margin-top: 15px;
+	}
+
+.top {
+	margin: auto;
+	clear: right;
+	}
+
+.top, .topright, .topleft, #deptnews {
+	margin-top: 0px;
+	}
+
+#deptnews {
+	font-size: 90%;
+	width: 235px;
+	border: 1px solid rgb(230,230,230);
+	background-color: rgb(250,250,250);
+	padding: 4px;
+}
+
+
+/* =========================================
+    special formatting for faculty pages
+   ========================================= */
+
+div.facultyName {
+	font-size: 16px;
+	line-height: 18px;
+}
+
+div.facultytitle {
+	padding-left: 10px;
+	}
+
+div.facultytitle img {
+	margin-bottom: 10px;
+	}
+
+div.facultypic {
+	float: left;
+	width: 125px;
+	margin: 0px 10px 10px 0;
+	}
+	
+table.projects td.blockcenter {
+	text-align: center;
+	vertical-align: middle;
+	}
+
+table.cv { width: auto; }
+table.cv td {
+	text-align: left;
+	vertical-align: top;
+	}
+table.cv td.date {
+	width: 8em;
+	}
+
+
+/* =========================================
+	workaround for current blowfish layout
+   ========================================= */
+
+div#blowfish {
+	padding: 15px 10px 10px 10px;
+	width: 140px;
+	background-color: #f0f0f5;
+	border: 1px solid #aaaaaf;
+	font-size: 11px !important;
+	line-height: 14px !important;
+	margin-top: 20px;
+	}
+
+div#blowfish b {
+	display: block;
+	line-height: 12px !important;
+	margin-bottom: 5px;
+	}
+
+div#blowfish br {
+	display: none;
+	}
+
+img#rotator {
+	     margin: 10px;
+	     padding: 5px;
+	     border: 1px solid #d3d3d3;
+}
+
+img#rotator.right {  	    
+		  float:right;
+  	     clear:right;
+}
+img#rotator.left {
+		 float:left;
+	     clear:left;
+}
+
+table.topcell td {
+vertical-align:top;
+}
+.doublesize {
+font-size:200%;
+}
+
+.caption, .admincaption {
+color: #666;
+font-size:10px;
+}
+
+#page-title {
+	display:block;
+	margin-bottom:20px;
+	font-size:18px;
+	}
+
+div.exec_ed_box {
+	clear: right;
+	margin-top: 20px;
+	background-color: rgb(255,255,204); 
+	padding: 20px 22px 20px 22px; 
+	}
+	
+.siteindex {
+	font-size: 10px;
+	}
+
+ol.instructions {
+padding-left: 0;
+margin-left: 3em;
+}
+
+/* additional stylesheet for some pages in the crg manual */
+table.faq td, table.top td {
+vertical-align:top;
+}
+
+table.schedule, table.grid, table.rows, table.facebook {
+border-collapse:collapse;
+margin:auto;
+width:98%;
+}
+table.facebook {
+width: 95%;
+margin: 0;
+padding: 0;
+}
+table.rows {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+table.rows tr {
+border-bottom: 1px solid #ddd;
+}
+table.rows td {
+height: 150px;
+padding-bottom: 1em;
+padding-top: 2em;
+}
+table.facebook td {
+font-size: 98%;
+border: 1px solid #ddd;
+width: 19%;
+}
+
+table.schedule td,table.schedule th,table.grid td,table.grid th {
+border:1px solid #aaa;
+font-size:99%;
+padding-left:4px;
+padding-right:4px;
+}
+table.schedule p, table.grid p {
+font-size:99%;
+}
+table.grid tr.odd, table.grid tr.odd td {
+background-color: #eee;
+}
+table.schedule td,table.schedule th {
+font-weight:700;
+text-align:center;
+white-space:nowrap;
+}
+
+table.schedule th {
+height:2em;
+text-align:left;
+}
+
+table.schedule tr.days th {
+text-align:center;
+width:14%;
+}
+
+td.yellow {
+background-color:#ff9;
+}
+
+td.green {
+background-color:#9f9;
+}
+
+td.gray {
+background-color:#ddd;
+}
+
+td.cyan {
+background-color:#9ff;
+}
+
+td.violet {
+background-color:#f9f;
+}
+
+td.blue {
+background-color:#99f;
+}
+
+td.red {
+background-color:#f99;
+}
+
+td.orange {
+background-color:#fc9;
+}
+
+tr.empty,tr.empty td {
+background-color:transparent;
+border:0;
+height:3em;
+}
+
+tr.em {
+background-color:#ccc;
+}
+
+table.grid ul {
+margin-left:10px;
+padding-left:5px;
+}
+
+table.grid li {
+font-size:95%;
+}
+
+/* ------------------------ */
+/* for courses */
+
+table.courses td {
+vertical-align: top;
+border-bottom: 1px #efefef solid;
+margin: 0;
+padding: 5px 5px 5px 0;
+}
+.exists {
+	color: #000099;
+}
+.approved {
+	color: #009900;
+}
+.times {
+width: auto;
+white-space: nowrap;
+color: #333;
+font-size: 93%;
+}
+.times p {
+width: auto;
+}
+
+/* ------------------------ */
+/* created for the crg manual, to put sidebar tips in */
+
+.tip {
+	border: 1px #999 solid;
+	width: 160px;
+	padding: 1em;
+	font-size: 70% !important;
+}
+
+/* for the news page */
+
+			.newstable {
+				width: 100%;
+				margin-top: 20px; 
+				margin-bottom: 20px;
+				}
+			.publication td {
+				padding: 10px 5px; 
+				vertical-align: top;
+				margin: 15px; 
+				}
+			.publication img {
+				border: 1px solid #333333; 
+				width: 150px;
+				}
+			.newstable td {
+				padding-left: 30px;
+				background: no-repeat left top url("../../../news/images/gsd_logo.html");
+				vertical-align: top;
+				padding-bottom: 30px;
+				}
+			.newstable td img {
+				float: left;
+				border: 1px solid #333333;
+				margin-right: 20px;
+				}
+			.newstable p, .newstable h1, .newstable h2, .newstable h3, .newstable h4, .newstable h5 {
+				margin-top: 0; padding-top: 0;
+				padding-bottom: 0;
+				margin-bottom: 0.5em;
+				}
+				
+/* facebook */
+#fb_details {
+	border-collapse: collapse;
+	border: 1px solid #666;
+}
+#fb_details td, #fb_details th {
+	font-size: 90%;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #999;
+	padding: 0 1em;
+	}

@@ -1,0 +1,252 @@
+p {	margin: 4px 0px 6px 0px; }
+
+u { font-style: italic; text-decoration: none; }
+hr {
+	width: 90%;
+	color:#ccddee;
+	margin: auto;
+}
+
+a:link, a:visited {
+	color: #D36354;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #D36354;
+	text-decoration: underline;
+}
+
+
+img { border: 0; }
+
+/***********************/
+/* naked lists */
+/***********************/
+
+ul {
+    padding-left: 20px;
+    border: 0;
+    margin: 0;
+}
+ul.fancy {
+	list-style: outside url("../../../images/bullet_arrow.html");
+	padding-left: 15px;
+	}
+li {
+    padding:0;
+    border:0;
+    margin:0;
+}
+li blockquote {
+	margin: 0 1em 0 2em;
+}
+dl {
+    padding-left: 20px;
+}
+
+/* =========================================
+   headings
+   ========================================= */
+
+h1 {
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 30px;
+	color: #ACACAC;
+	margin: 0px 0px 10px 0px;
+	padding: 0px;	
+}
+
+h2 {
+	font-size: 14px;
+	line-height: 18px;
+	color: #999470;
+	margin: 12px 0px 0px 0px;
+	padding: 0px;
+}
+
+h2 a:link, h2 a:visited {
+	color: #999470;
+	text-decoration: none;
+}
+
+h2 a:hover, h2 a:active {
+	color: #999470;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 12px;
+	line-height: 14px;
+	color: #333333;
+	margin: 12px 0px 0px 0px;
+	padding: 0px;
+} 
+
+h3 a:link, h3 a:visited, h4 a:link, h4 a:visited, h5 a:link, h5 a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+h3 a:hover, h3 a:active, h4 a:hover, h4 a:active, h5 a:hover, h5 a:active {
+	color: #333333;
+	text-decoration: underline;
+}
+
+h4 {
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 12px 0px -2px 0px;
+	padding: 0px;
+}
+
+h5 {
+	font-size: 12px;
+	font-weight: normal;
+	font-style: italic;
+	line-height: 14px;
+	color: #333333;
+	margin: 12px 0px -2px 0px;
+	padding: 0px;
+} 
+
+h6 {font-size: 0.9em !important;}
+
+
+/* for accessibility, please use only h1-h6 tags for headings not these homegrown classes */
+
+.subheading, 
+.heading, .tinyheading, .smallheading, .bigheading, .giantheading,
+.heading2, .tinyheading2, .smallheading2, .bigheading2, .giantheading2,
+.heading3, .tinyheading3, .smallheading3, .bigheading3, .giantheading3,
+.heading4, .tinyheading4, .smallheading4, .bigheading4, .giantheading4,
+.heading5, .tinyheading5, .smallheading5, .bigheading5, .giantheading5,
+.heading6, .tinyheading6, .smallheading6, .bigheading6, .giantheading6, 
+.giant, .small, .tiny 
+{ font-size: 1em; }
+
+.subheading, 
+.heading, .tinyheading, .smallheading, .bigheading, .giantheading,
+.heading2, .tinyheading2, .smallheading2, .bigheading2, .giantheading2,
+.heading3, .tinyheading3, .smallheading3, .bigheading3, .giantheading3,
+.heading4, .tinyheading4, .smallheading4, .bigheading4, .giantheading4,
+.heading5, .tinyheading5, .smallheading5, .bigheading5, .giantheading5,
+.heading6, .tinyheading6, .smallheading6, .bigheading6, .giantheading6, 
+h1.alt, h2.alt, h3.alt, h4.alt, h5.alt, h6.alt {
+	color: black;
+	font-weight: bold;
+	padding: 0;
+	margin: 6px 0 4px 0
+}
+
+
+/***********************/
+/* forms */
+/***********************/
+
+/* brackets make IE ignore the whole line, so this has to stay separate */
+input[type=image] { border: 0; }
+
+fieldset {
+	border: 0;
+	padding: 0px; 
+	margin: 10px 0;
+	background-color: #f2f4ff;
+}
+fieldset legend {
+	padding: .2em .5em;
+	font-size: 110%;
+  	font-weight: normal;
+    background-color: #004080;
+	color: #fff;
+	margin: 0; 
+	border: 0; 
+}
+fieldset label {
+	line-height: 1.8em;
+	vertical-align: top;
+	width: auto;
+	min-width: 170px;
+	padding-right: 2px;
+	position: relative;
+	text-align: left;
+}
+fieldset ol {
+	margin: 0;
+	padding: 0;
+}
+fieldset li {
+	list-style: none;
+	margin: 0;
+	padding: 5px 10px 7px .7em;
+	border-bottom: 1px solid #b8cfe5;
+}
+fieldset fieldset {
+	border: none;
+	margin: 3px 0 0;
+}
+fieldset fieldset legend {
+	padding: 0 0 4px;
+	font-size: 100% !important;
+	font-weight: normal;
+	background: none;
+	color: black;
+}
+fieldset fieldset label {
+	width: auto;
+	margin-left: 0; /* Width plus 3 (html space) */
+}
+fieldset fieldset li {
+	list-style: none;
+	background: none;
+	padding: 0 5px;
+	border: 0;
+}
+button {
+	border: 1px outset #b8cfe5;
+	background-color: #f2f4ff;
+}
+input[type=submit] {
+	border: 2px outset #004080;
+}
+input, textarea {
+margin: 0;
+}
+fieldset input[type=text] {
+	
+}
+
+/***********************************/
+/* new classes for September 2007 */
+/*********************************/
+
+.borderBottomLightGray {
+	margin: 6px 0px;
+	padding: 6px 0px;
+	border-bottom: 1px solid #D9D9D9;
+}
+
+.newsTable { }
+
+.newsTable p, .newsTable h2, .newsTable h3 {
+	width: 333px;
+}
+
+.newsTable img {
+	margin: 10px 0px;
+}
+
+.photoCaption {
+	font-size: 10px;
+	font-style: italic;
+	line-height: 14px;
+}
+
+.relatedLinkSmall {
+	font-size: 10px;
+	line-height: 12px;
+	margin-top: 0px;
+}

@@ -1,0 +1,119 @@
+/*	=========================================
+	print style for static faculty web pages
+	========================================= */
+	
+
+/*this moves the main content layout div over to the left since the subnav is not displayed */
+
+#layout-main {
+	top: 36px;
+	/*left: 192px; modified to hide left nav*/
+	left: 0px;
+	width: auto;
+	position: relative;
+}
+
+/*removes subnav even though the layout-main covers it up when moved flush to the left as above*/
+
+#subnavlinks { 
+	/* added to hide left nav */
+	display:none;
+}
+
+/*removes layout header block element entirely which would make white band at top - too much margin*/
+#layout-header {
+	display:none;
+}
+
+/*put a little extra margin around images that are inside paragraphs*/ 
+#layout-main-content img {
+margin:30px;
+}
+
+/*set the font to this for all these tags*/
+body, p, a, td, tr, table, li, dt, dd, ul, ol, dl, blockquote, input, form, div, i, em{
+	font-size: 14px;
+}
+/* fixing text overlap for the italis text */
+em, i{
+  margin-top: inherit;
+  margin-bottom: inherit;
+  margin-left: 7px;
+  margin-right: 7px;
+ }
+
+/*control the decoration on links*/
+a:link { 
+	text-decoration: none;
+	color:#000000;
+}
+
+.facultyName {
+	padding: 0px;
+	margin-left: 30px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+/*set all text size
+body {
+	margin: 10pt 0;
+	padding: 0;
+}*/
+
+/*#logo {
+display:none;
+}*/
+
+
+/*#layout, #layout-menu-noslash, #layout-main-content {
+	margin: 0;
+	padding: 0;
+}
+*/
+
+ /**/#layout-menu {
+	/*width: 192px;  disabled to hide left nav*/
+	
+	display:none;
+ }
+
+
+/*#layout-header img {
+display:none;
+}*/
+
+/*
+#searchbutton {
+display:none;
+}*/
+
+/*
+#logo img {
+display:none;
+}*/
+
+/*body, p, a, 
+td, tr, table, 
+li, dt, dd, ul, ol, dl, 
+blockquote, img, input, form, 
+div, span,
+h1, h2, h3, h4, h5, h6 {
+	color: #000000;
+	background-color: #ffffff;
+	line-height: normal;
+	text-align: left;
+	letter-spacing: normal;
+	}
+	
+*/
+
+
+/* for if IE ever supports psuedo elements
+p a:after {
+	content: " <" attr(href) "> " ;
+	
+} */
+
+
+

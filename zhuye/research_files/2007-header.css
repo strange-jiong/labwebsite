@@ -1,0 +1,86 @@
+/* ------------ */
+/*	header area */	
+/* ------------ */
+	
+#layout-header {
+	top: 0px;
+	left: 0px;
+    width: 1000px !important;
+	height: 89px !important;
+    margin: 0 0 8px 0 !important;
+	background-color: #414141;
+	color: white;
+	position: absolute;
+	z-index: 1;
+}
+#layout-header ul {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	list-style:none;
+	border-left: 1px white solid;
+}
+
+#navOne {
+	top: 20px;
+	left: 386px;
+	height: 57px;
+	padding-left: 7px;
+	border-left: 1px #FFFFFF solid;
+	position: absolute;
+}
+
+#navTwo {
+	top: 20px;
+	left: 539px;
+	height: 57px;
+	padding-left: 7px;
+	border-left: 1px #FFFFFF solid;
+	position: absolute;
+}
+
+#logo {
+	top: 0px;
+	left: 0px;
+	height: 67px;
+	width: 295px;
+	position: absolute;
+    z-index: 2;
+}
+
+/* -- */
+/*	header search form*/	
+/* -- */
+	
+#layout-header form {
+	border: none;
+	background: #414141;
+	float: right;
+	padding: 0px;
+	margin: 50px 0 20px auto;
+}
+#layout-header form label {
+	background-color: #414141;
+	line-height: 1em;
+	padding: 4px;
+}
+#searchbox {
+	border: none;
+	line-height: 1em;
+	font-size: 13px;
+	padding: 2px;
+	background-color: white;
+	margin: 0 !important;
+}
+#searchbutton {
+	margin: 0 !important;
+	padding: 0 !important;
+	border: 0;
+	background-color: white;
+	vertical-align: bottom;
+	width: 20px;
+	height: 20px;
+}
+
