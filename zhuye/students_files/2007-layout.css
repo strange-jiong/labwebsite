@@ -1,0 +1,182 @@
+/* ------------ */
+/*	content area */	
+/* ------------ */
+	
+#topimage {
+	position: relative;
+	margin: 0 0 10px -20px;
+	padding: 0;
+}
+/* =========================================
+    layout
+   ========================================= */
+body {
+	font-family: Helvetica, sans-serif !important;
+	font-size: 12px;
+	line-height: 16px;
+	color: #333333;
+	text-decoration: none;
+	background-color: #FFFFFF;
+	background-image: url(../../../images/leftcolslice_gray.html);
+	background-position: 0px 96px;
+	background-repeat: repeat-y;
+    padding: 0px; border: 0px;
+    margin: 0px;
+	}
+	
+
+#layout {
+    clear: left;
+    background: white;
+    padding: 0px; 
+    width: 1000px;
+    /*float: left; do not use 2/08 mjr - causes DW design view problem*/
+    margin-top: 0px;
+    margin-bottom: 1in; /* prevent people adding */
+                        /* so many carriage returns */
+                        /* to the end of pages */
+}
+#layout-menu {
+	top: 88px;
+	left: 0px;
+    clear: left;
+    padding: 0px;
+    width: 192px;
+    min-height: 550px;
+    height: 100%;
+	color: #333333;
+	background-color: #F2F2F2;
+	margin: 0px;
+	position: absolute;
+}
+
+#layout-main-nosubnav {
+	background-color: #FFFFFF;
+	top: 96px;
+	left: 0px;
+	position: absolute;
+    width: 1000px;
+    clear: left;
+    padding: 0px;
+	margin: 0px;
+}
+#layout-main {
+	top: 96px;
+	left: 192px;
+    width: 808px;
+	position: absolute;
+}
+
+#layout-main div.narrow {
+	width: 468px;
+	margin-left: 28px;
+}
+
+#layout-main-content {
+	margin-left: 31px;
+}
+
+#layout-main-content p, #layout-main-content li {
+	margin-right: 40px;
+}
+
+.headImage {
+	margin-bottom: 12px;
+}
+
+/*	=========================================
+	side menus
+	========================================= */
+
+#address {}
+
+#librarylinks, #subnavlinks {
+	width: 192px;
+	font-family: Helvetica, sans-serif;
+	font-size: 12px;
+	background-color: #CFCDBC;
+	border-bottom: 8px solid #FFFFFF;
+	margin: 0px !important;
+	padding: 8px 0px 18px 0px;
+}
+
+#related {
+	margin: 0px;
+	padding-bottom: 18px;
+	background-color: #CFCFCF;
+}
+
+#related form {
+	margin: 0px 12px 0px 16px;
+}
+
+#related input {
+	margin: 2px 0px;
+}
+
+#subnavlinks {
+	border-top: 8px solid #FFFFFF;
+}
+
+#address h1, #librarylinks h1, #related h1, #subnavlinks h1 {
+	font-size: 12px !important; 
+	line-height: 14px;
+	text-transform: uppercase;
+	color: #333333 !important;
+	font-weight: bold;
+	padding: 6px 12px 2px 16px;
+	margin: 0px 0px -4px 0px !important;
+}
+
+#librarylinks a:link, #librarylinks a:visited, #related a:link, #related a:visited, #subnavlinks a:link, #subnavlinks a:visited {
+	color: #333333;
+	text-decoration: none;
+}
+
+#librarylinks a:hover, #librarylinks a:active, #related a:hover, #related a:active, #subnavlinks a:hover, #subnavlinks a:active, #subnavlinks .activeNav {
+	color: #D36354;
+	text-decoration: none;
+}
+
+#subnavlinks a.activeNav:link, #subnavlinks a.activeNav:visited {
+	color: #D36354;
+	text-decoration: none;
+}
+
+#subnavlinks a.activeNav:hover, #subnavlinks a.activeNav:active {
+	color: #D36354;
+	text-decoration: underline;
+}
+
+#address p {
+	padding: 0px 12px 4px 16px;
+}
+
+#librarylinks p, #related p, #subnavlinks p {
+	text-indent: -8px;
+	padding: 0px 12px 0px 24px;
+	margin: 2px 0px 0px 0px;
+}
+
+.subnav2 { }
+
+ul.subnav2 {
+	list-style-type: none;
+	list-style-position: default;
+	padding: 0px 12px 0px 36px;
+	margin: 0px 0px 0px -12px;
+}
+
+/*	=========================================
+	search page layout
+	========================================= */
+#linktable {
+	margin: 15px;
+}
+#linktable td {
+	width: 30%;
+}
+
+.crg-subnav{
+	padding: 10px;
+}
