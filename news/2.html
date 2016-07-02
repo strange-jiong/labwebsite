@@ -1,0 +1,101 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>新闻标题</title>
+<style type="text/css">
+<!--
+.STYLE1 {color: #000000}
+-->
+</style>
+</head>
+<body>
+<div id="container">
+  <div id="header">
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="1.jpg" width="1002" height="184" /></td><!--head头图片-->
+      </tr>
+    </table>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" background="/page/main19/images/nav_bg.gif">
+      <tr>
+        <td height="39" align="center" background="背景图片" style="padding:0px 20px;"><table height="39" border="0" cellpadding="0" cellspacing="0" class="wlink">
+            <tr>
+              <td><script language='javascript'>   function getHttpObj(){       var xmlHttp = false;       try {           xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");       }catch (e) {           try {               xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");           }catch (e2) {               xmlHttp = false;           }       }       if (!xmlHttp && typeof XMLHttpRequest != 'undefined'){           xmlHttp = new XMLHttpRequest();       }       return xmlHttp;   }   function P(pltId,url){       this.portletId=pltId;       this.url=url;       this.kind=0;   }   function T(pltId,url){       this.portletId=pltId;       this.url=url;       this.kind=1;   }   function I(pltId, url, fun){       this.portletId=pltId;       this.url=url;       this.kind=2;       this.nextFunc=fun;   }   var PLTS=new Array();   var cur1=0;   var Loader1= getHttpObj();   function loadps(){       if(cur1<PLTS.length){           Loader1.open('GET',PLTS[cur1].url+'?'+new Date().getTime()+(10000+parseInt(Math.random()*10000)));           Loader1.onreadystatechange=endloadps;           Loader1.send(null);       }   };   function endloadps(){       if(Loader1.readyState==4){           if(Loader1.status==200){               var response=Loader1.responseText;               if(PLTS[cur1].kind==2) {                   _listArticleCount =response.replace(/(^\s*)|(\s*$)/g, "");                   try {                       eval(PLTS[cur1].nextFunc);                   }catch(e){                       alert('高效分页初始化失败！');                   }               }               try{                   if(window.execScript){                       document.getElementById(PLTS[cur1].portletId).outerHTML='<body>'+response+'</body>';                   } else{                       document.getElementById(PLTS[cur1].portletId).innerHTML=response;                   }               } catch(e){}               var regx=new RegExp('<scr'+'ipt[^>]*?>([\\s\\S]*?)<\\/scr'+'ipt\\s*>|<scr'+'ipt[^>]*?\\/>','img');               var arr;               while((arr = regx.exec(response)) != null){                   if(arr.length){                       if(arr.length >=2){                           var regx2 = new RegExp("<scr"+"ipt[^>]*?\\bsrc=\\s*('[^>]*'|\"[^>]*\"|[\\S]*)\\s*\\/?>",'im');                           var srcArr=regx2.exec(arr[0]);                           if(srcArr!=null){                               var src= srcArr[1];                               if(src){                                   if((src.charAt(0)=='"') || (src.charAt(0)=="'")){                                       src=src.substr(1,src.length-2);                                   }                                   loadScript(src);                               }                           } else{                               execJavaScript(arr[1]);                           }                       }                   }               }           }           cur1++;           loadps();       }   }   function loadScript(s){       try{           var sc=document.createElement('script');           sc.type='text/javascript';           sc.language='javascript';           sc.src=s;           document.body.appendChild(sc);       }catch(e){}   }   function execJavaScript(s){       try{           var sc=document.createElement('script');           sc.type='text/javascript';           sc.language='javascript';           sc.text=s;           document.body.appendChild(sc);       }catch(e){}   }   window.onload=loadps;</script><div id='_p_1'></div><script language='javascript'>PLTS[PLTS.length]=new P('_p_1','/s/38/t/19/p/1/p.htm');</script></td>
+            </tr>
+        </table>          
+          <script>
+function show_jnkc()
+{
+  var date_f=new Date();
+  var date_h=date_f.getHours()<10?"0"+date_f.getHours():date_f.getHours();
+  var date_m=date_f.getMinutes()<10?"0"+date_f.getMinutes():date_f.getMinutes();
+  var date_s=date_f.getSeconds()<10?"0"+date_f.getSeconds():date_f.getSeconds();
+  var date_w="星期"+"日一二三四五六".charAt(date_f.getDay());
+  var date_y=date_f.getFullYear();
+  var date_M=(date_f.getMonth()+1)<10?"0"+(date_f.getMonth()+1):date_f.getMonth()+1;
+  var date_d=date_f.getDate()<10?"0"+date_f.getDate():date_f.getDate();
+  jnkc.innerHTML=date_y+"年"+date_M+"月"+date_d+"日   "+date_w+"  ";
+}
+setInterval("show_jnkc();",1000);
+          </script></td>
+      </tr>
+    </table>
+  </div>
+  <div id="wrapper">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" class="border11">
+    <tr>
+      <td width="37">&nbsp;</td>
+      <td width="928" valign="top"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="52" align="center" class="biaoti">标题</td>
+          </tr>
+          <tr>
+            <td height="1" bgcolor="#CCCCCC" ></td>
+          </tr>
+        </table>
+          <table width="100%" border="0" cellpadding="0" cellspacing="0" class="border2">
+            <tr>
+              <td height="31" align="center">发布时间：2016-05-22 浏览次数：</td>
+            </tr>
+          </table>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td valign="top" class="article"><p>&nbsp;</p>
+<p><font size="4"><span>内容</span></font></p>
+<p align="center"><font size="4"><span><img border="0" alt="" src="活动图片" /></span></font></p>
+<p><span><font size="4">&nbsp;内容</font></span></p>
+<p align="center"><span><font size="4"><img border="0" alt="" src="活动图片" /></font></span></p>
+<p><span><font size="4">&nbsp;内容</font></span></p>
+<p><font size="4"><span>&nbsp;内容。</span><span>（文/XX 图/XX ）</span></font></p>
+<p align="center"><font size="4"><span><img border="0" alt="" src=活动图片" /></span></font></p></td>
+            </tr>
+        </table></td>
+      <td width="37"></td>
+    </tr>
+    <tr>
+      <td colspan="3" height="12"></td>
+    </tr>
+  </table>
+</div>
+<div id="footer">
+  <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#E0ECEC">
+    <tr>
+      <td height="5"></td>
+    </tr>
+  </table>
+  <div id="div">
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#BADFFF">
+      <tr>
+        <td height="5"></td>
+      </tr>
+    </table>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="footer">
+    
+    </table>
+  </div>
+</div>
+</div>
+</body>
+</html><image src="" style="display:none" width="0" height="0"></image>
